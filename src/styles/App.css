@@ -1,7 +1,19 @@
+body {
+  background-image: url("/public/images/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 .main-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgba(239, 204, 151, 0.319);
+}
+.add-container {
+  background-color: rgba(239, 204, 151, 0.432);
 }
 
 .show-container {
@@ -13,6 +25,12 @@
   width: 100%;
   object-fit: cover;
   aspect-ratio: 1 / 1; /* makes all images square */
+  border-radius: 8px;
+}
+
+.add-container {
+  display: flex;
+  justify-content: center;
 }
 
 .button-effect {

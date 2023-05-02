@@ -25,11 +25,12 @@ export default function AddShow ({setShows}) {
     })
     .catch(alert)
   }
+  
 
   return (
     <>
-      <h2>Add Show</h2>
       <form onSubmit={handleAddShow}>
+        <h2>Add Show</h2>
         <label htmlFor="title">Title
           <input
             type="text"
